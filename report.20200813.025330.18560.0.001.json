@@ -1,0 +1,708 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200813.025330.18560.0.001.json",
+    "dumpEventTime": "2020-08-13T02:53:30Z",
+    "dumpEventTimeStamp": "1597280010369",
+    "processId": 18560,
+    "cwd": "C:\\Projects\\PACO IT Consulting\\Codesource\\Laravel\\Laravel_VueJs\\vue_laravel",
+    "commandLine": [
+      "node",
+      "C:\\Projects\\PACO IT Consulting\\Codesource\\Laravel\\Laravel_VueJs\\vue_laravel\\node_modules\\webpack\\bin\\webpack.js",
+      "--progress",
+      "--hide-modules",
+      "--config=node_modules/laravel-mix/setup/webpack.config.js",
+      "--watch"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.16299",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 67299109,
+        "nice": 0,
+        "sys": 47468203,
+        "idle": 499776765,
+        "irq": 5781734
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 67580296,
+        "nice": 0,
+        "sys": 36143656,
+        "idle": 510819921,
+        "irq": 1276531
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 75169906,
+        "nice": 0,
+        "sys": 39489046,
+        "idle": 499884906,
+        "irq": 456906
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4010U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 75647687,
+        "nice": 0,
+        "sys": 34914406,
+        "idle": 503981796,
+        "irq": 418109
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:12",
+        "address": "fe80::c9d0:2323:bd59:4fd5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "VirtualBox Host-Only Network",
+        "internal": false,
+        "mac": "0a:00:27:00:00:12",
+        "address": "192.168.56.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:03",
+        "address": "fe80::3077:9bca:156e:edab",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "VirtualBox Host-Only Network #2",
+        "internal": false,
+        "mac": "0a:00:27:00:00:03",
+        "address": "192.168.66.2",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "20:68:9d:aa:ca:d4",
+        "address": "fe80::750f:a760:d9a3:3536",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 14
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "20:68:9d:aa:ca:d4",
+        "address": "172.20.10.7",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "Paco"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff78e6519f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff78e655e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff78e654dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff78e7534cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff78ef69f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff78ef52021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff78ee1e57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff78ee26521",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3761"
+    },
+    {
+      "pc": "0x00007ff78ee1bb13",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff78ee1a184",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2452"
+    },
+    {
+      "pc": "0x00007ff78ee3b36d",
+      "symbol": "v8::internal::Factory::NewFillerObject+61"
+    },
+    {
+      "pc": "0x00007ff78eba0c51",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1665"
+    },
+    {
+      "pc": "0x00007ff78f3b4ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00007ff78f4077ce",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+885054"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f3330bc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+14892"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f3330bc",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+14892"
+    },
+    {
+      "pc": "0x00007ff78f339d8c",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+42748"
+    },
+    {
+      "pc": "0x00007ff78f389392",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+367874"
+    },
+    {
+      "pc": "0x00007ff78f356f2d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+161949"
+    },
+    {
+      "pc": "0x00007ff78f3371ac",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+31516"
+    },
+    {
+      "pc": "0x00007ff78ee77cc0",
+      "symbol": "v8::internal::Execution::CallWasm+1536"
+    },
+    {
+      "pc": "0x00007ff78ee77db3",
+      "symbol": "v8::internal::Execution::CallWasm+1779"
+    },
+    {
+      "pc": "0x00007ff78ee78192",
+      "symbol": "v8::internal::Execution::TryCall+354"
+    },
+    {
+      "pc": "0x00007ff78ee5a1a5",
+      "symbol": "v8::internal::MicrotaskQueue::RunMicrotasks+501"
+    },
+    {
+      "pc": "0x00007ff78f33a9ac",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+45852"
+    },
+    {
+      "pc": "0x0000032ae67fe719",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 99758080,
+    "totalCommittedMemory": 99758080,
+    "usedMemory": 92616272,
+    "availableMemory": 2105310456,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047456,
+        "used": 1046800,
+        "available": 656
+      },
+      "old_space": {
+        "memorySize": 65159168,
+        "committedMemory": 65159168,
+        "capacity": 64829688,
+        "used": 61030384,
+        "available": 3799304
+      },
+      "code_space": {
+        "memorySize": 2789376,
+        "committedMemory": 2789376,
+        "capacity": 2646112,
+        "used": 1697664,
+        "available": 948448
+      },
+      "map_space": {
+        "memorySize": 3936256,
+        "committedMemory": 3936256,
+        "capacity": 3931056,
+        "used": 2473680,
+        "available": 1457376
+      },
+      "large_object_space": {
+        "memorySize": 25653248,
+        "committedMemory": 25653248,
+        "capacity": 25519320,
+        "used": 25519320,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 909312,
+        "committedMemory": 909312,
+        "capacity": 815616,
+        "used": 815616,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047456,
+        "used": 0,
+        "available": 1047456
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 66.921,
+    "kernelCpuSeconds": 21.187,
+    "cpuConsumptionPercent": 3.56568,
+    "maxRss": 281329664,
+    "pageFaults": {
+      "IORequired": 377906,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 4138,
+      "writes": 254
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\Amilcar\\AppData\\Roaming",
+    "APP_DEBUG": "true",
+    "APP_ENV": "local",
+    "APP_KEY": "base64:HuQeyJxh5PrZlQ8+IbI9qfAHFX3IEvRzcevfBkZA4Ko=",
+    "APP_NAME": "Laravel",
+    "APP_URL": "http://localhost",
+    "asl.log": "Destination=file",
+    "AWS_ACCESS_KEY_ID": "",
+    "AWS_BUCKET": "",
+    "AWS_DEFAULT_REGION": "us-east-1",
+    "AWS_SECRET_ACCESS_KEY": "",
+    "BROADCAST_DRIVER": "log",
+    "CACHE_DRIVER": "file",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132336671796523457",
+    "ChocolateyToolsLocation": "C:\\tools",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "PACO",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DASHLANE_DLL_DIR": "C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\ucrt;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\bin\\Qt;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\bin\\Ssl",
+    "DB_CONNECTION": "mysql",
+    "DB_DATABASE": "laravel",
+    "DB_HOST": "127.0.0.1",
+    "DB_PASSWORD": "",
+    "DB_PORT": "3306",
+    "DB_USERNAME": "root",
+    "dp0": "C:\\Projects\\PACO IT Consulting\\Codesource\\Laravel\\Laravel_VueJs\\vue_laravel\\node_modules\\.bin\\",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "FP_NO_HOST_CHECK": "NO",
+    "GIT_ASKPASS": "c:\\Users\\Amilcar\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\Amilcar",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Amilcar",
+    "INIT_CWD": "C:\\Projects\\PACO IT Consulting\\Codesource\\Laravel\\Laravel_VueJs\\vue_laravel",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_162",
+    "KMP_DUPLICATE_LIB_OK": "TRUE",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\Amilcar\\AppData\\Local",
+    "LOGONSERVER": "\\\\PACO",
+    "LOG_CHANNEL": "stack",
+    "MAIL_ENCRYPTION": "null",
+    "MAIL_FROM_ADDRESS": "null",
+    "MAIL_FROM_NAME": "Laravel",
+    "MAIL_HOST": "smtp.mailtrap.io",
+    "MAIL_MAILER": "smtp",
+    "MAIL_PASSWORD": "null",
+    "MAIL_PORT": "2525",
+    "MAIL_USERNAME": "null",
+    "MIX_PUSHER_APP_CLUSTER": "mt1",
+    "MIX_PUSHER_APP_KEY": "",
+    "MKL_SERIAL": "YES",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_ENV": "development",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_config_access": "",
+    "npm_config_allow_same_version": "",
+    "npm_config_also": "",
+    "npm_config_always_auth": "",
+    "npm_config_argv": "{\"remain\":[\"--watch\"],\"cooked\":[\"run\",\"development\",\"--\",\"--watch\"],\"original\":[\"run\",\"development\",\"--\",\"--watch\"]}",
+    "npm_config_audit": "true",
+    "npm_config_audit_level": "low",
+    "npm_config_auth_type": "legacy",
+    "npm_config_before": "",
+    "npm_config_bin_links": "true",
+    "npm_config_browser": "",
+    "npm_config_ca": "",
+    "npm_config_cache": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm-cache",
+    "npm_config_cache_lock_retries": "10",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_config_cache_max": "Infinity",
+    "npm_config_cache_min": "10",
+    "npm_config_cafile": "",
+    "npm_config_cert": "",
+    "npm_config_cidr": "",
+    "npm_config_color": "true",
+    "npm_config_commit_hooks": "true",
+    "npm_config_depth": "Infinity",
+    "npm_config_description": "true",
+    "npm_config_dev": "",
+    "npm_config_dry_run": "",
+    "npm_config_editor": "notepad.exe",
+    "npm_config_engine_strict": "",
+    "npm_config_fetch_retries": "2",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_force": "",
+    "npm_config_format_package_lock": "true",
+    "npm_config_fund": "true",
+    "npm_config_git": "git",
+    "npm_config_git_tag_version": "true",
+    "npm_config_global": "",
+    "npm_config_globalconfig": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_globalignorefile": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\etc\\npmignore",
+    "npm_config_global_style": "",
+    "npm_config_group": "",
+    "npm_config_ham_it_up": "",
+    "npm_config_heading": "npm",
+    "npm_config_https_proxy": "",
+    "npm_config_if_present": "",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_author_email": "",
+    "npm_config_init_author_name": "",
+    "npm_config_init_author_url": "",
+    "npm_config_init_license": "ISC",
+    "npm_config_init_module": "C:\\Users\\Amilcar\\.npm-init.js",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_json": "",
+    "npm_config_key": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_link": "",
+    "npm_config_local_address": "",
+    "npm_config_loglevel": "notice",
+    "npm_config_logs_max": "10",
+    "npm_config_long": "",
+    "npm_config_maxsockets": "50",
+    "npm_config_message": "%s",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_node_options": "",
+    "npm_config_node_version": "12.16.1",
+    "npm_config_noproxy": "",
+    "npm_config_offline": "",
+    "npm_config_onload_script": "",
+    "npm_config_only": "",
+    "npm_config_optional": "true",
+    "npm_config_otp": "",
+    "npm_config_package_lock": "true",
+    "npm_config_package_lock_only": "",
+    "npm_config_parseable": "",
+    "npm_config_prefer_offline": "",
+    "npm_config_prefer_online": "",
+    "npm_config_prefix": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm",
+    "npm_config_preid": "",
+    "npm_config_production": "",
+    "npm_config_progress": "true",
+    "npm_config_proxy": "",
+    "npm_config_read_only": "",
+    "npm_config_rebuild_bundle": "true",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_rollback": "true",
+    "npm_config_save": "true",
+    "npm_config_save_bundle": "",
+    "npm_config_save_dev": "",
+    "npm_config_save_exact": "",
+    "npm_config_save_optional": "",
+    "npm_config_save_prefix": "^",
+    "npm_config_save_prod": "",
+    "npm_config_scope": "",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_script_shell": "",
+    "npm_config_searchexclude": "",
+    "npm_config_searchlimit": "20",
+    "npm_config_searchopts": "",
+    "npm_config_searchstaleness": "900",
+    "npm_config_send_metrics": "",
+    "npm_config_shell": "C:\\WINDOWS\\system32\\cmd.exe",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_sign_git_commit": "",
+    "npm_config_sign_git_tag": "",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_sso_type": "oauth",
+    "npm_config_strict_ssl": "true",
+    "npm_config_tag": "latest",
+    "npm_config_tag_version_prefix": "v",
+    "npm_config_timing": "",
+    "npm_config_tmp": "C:\\Users\\Amilcar\\AppData\\Local\\Temp",
+    "npm_config_umask": "0000",
+    "npm_config_unicode": "",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_update_notifier": "true",
+    "npm_config_usage": "",
+    "npm_config_user": "",
+    "npm_config_userconfig": "C:\\Users\\Amilcar\\.npmrc",
+    "npm_config_user_agent": "npm/6.13.7 node/v12.16.1 win32 x64",
+    "npm_config_version": "",
+    "npm_config_versions": "",
+    "npm_config_viewer": "browser",
+    "npm_execpath": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "development",
+    "npm_lifecycle_script": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js \"--watch\"",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_description": "<p align=\"center\"><img src=\"https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg\" width=\"400\"></p>",
+    "npm_package_devDependencies_axios": "^0.19",
+    "npm_package_devDependencies_bootstrap": "^4.0.0",
+    "npm_package_devDependencies_cross_env": "^7.0",
+    "npm_package_devDependencies_jquery": "^3.2",
+    "npm_package_devDependencies_laravel_mix": "^5.0.1",
+    "npm_package_devDependencies_lodash": "^4.17.19",
+    "npm_package_devDependencies_popper_js": "^1.12",
+    "npm_package_devDependencies_resolve_url_loader": "^2.3.1",
+    "npm_package_devDependencies_sass": "^1.20.1",
+    "npm_package_devDependencies_sass_loader": "^8.0.0",
+    "npm_package_devDependencies_vue": "^2.5.17",
+    "npm_package_devDependencies_vue_template_compiler": "^2.6.10",
+    "npm_package_name": "",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_dev": "npm run development",
+    "npm_package_scripts_development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js \"--watch\"",
+    "npm_package_scripts_hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --disable-host-check --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "npm_package_scripts_prod": "npm run production",
+    "npm_package_scripts_production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "npm_package_scripts_watch": "npm run development -- --watch",
+    "npm_package_scripts_watch_poll": "npm run watch -- --watch-poll",
+    "npm_package_version": "",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Amilcar\\OneDrive",
+    "OnlineServices": "Online Services",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;C:\\Projects\\PACO IT Consulting\\Codesource\\Laravel\\Laravel_VueJs\\vue_laravel\\node_modules\\.bin;C:\\Users\\Amilcar\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\npm-lifecycle\\node-gyp-bin;C:\\Projects\\PACO IT Consulting\\Codesource\\Laravel\\Laravel_VueJs\\vue_laravel\\node_modules\\.bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\app\\Amilcar\\product\\11.2.0\\dbhome_3\\bin;F:\\app\\Amilcar\\product\\11.2.0\\dbhome_1\\bin;F:\\app\\Amilcar\\product\\11.2.0\\dbhome_2\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files (x86)\\Hewlett-Packard\\HP ProtectTools Security Manager\\Bin\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\PostgreSQL\\pg10\\bin;C:\\php-7.3.1-nts;C:\\composer;C:\\Program Files\\PowerShell\\6\\;C:\\Program Files\\Git\\cmd;C:\\Gradle\\gradle-6.1.1\\bin;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\scr\\flutter\\bin;C:\\Users\\Amilcar\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Amilcar\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\bin\\Firefox_Extension\\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\\components;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\ucrt;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\bin\\Qt;C:\\Users\\Amilcar\\AppData\\Roaming\\Dashlane\\6.1944.0.25283\\bin\\Ssl;C:\\Users\\Amilcar\\AppData\\Roaming\\npm;C:\\tools\\dart-sdk\\bin;C:\\Users\\Amilcar\\AppData\\Roaming\\Pub\\Cache\\bin;C:\\Users\\Amilcar\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\scr\\flutter\\bin;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.CPL",
+    "Platform": "BNB",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 69 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4501",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\Amilcar\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PT7HOME": "C:\\Program Files\\Cisco Packet Tracer 7.2.1",
+    "PTSMInstallPath_X86": "c:\\Program Files (x86)\\Hewlett-Packard\\HP ProtectTools Security Manager\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "PUSHER_APP_CLUSTER": "mt1",
+    "PUSHER_APP_ID": "",
+    "PUSHER_APP_KEY": "",
+    "PUSHER_APP_SECRET": "",
+    "QT_DEVICE_PIXEL_RATIO": "auto",
+    "QUEUE_CONNECTION": "sync",
+    "REDIS_HOST": "127.0.0.1",
+    "REDIS_PASSWORD": "null",
+    "REDIS_PORT": "6379",
+    "SESSIONNAME": "Console",
+    "SESSION_DRIVER": "file",
+    "SESSION_LIFETIME": "120",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\Amilcar\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.47.3",
+    "TMP": "C:\\Users\\Amilcar\\AppData\\Local\\Temp",
+    "USERDOMAIN": "PACO",
+    "USERDOMAIN_ROAMINGPROFILE": "PACO",
+    "USERNAME": "Amilcar",
+    "USERPROFILE": "C:\\Users\\Amilcar",
+    "VBOX_MSI_INSTALL_PATH": "C:\\Program Files\\Oracle\\VirtualBox\\",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\Amilcar\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\Amilcar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-03169697e1-sock",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\SYSTEM32\\apphelp.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\Program Files\\National Instruments\\Shared\\mDNS Responder\\nimdnsNSP.dll",
+    "C:\\WINDOWS\\SYSTEM32\\nimdnsResponder.dll",
+    "C:\\WINDOWS\\WinSxS\\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.9317_none_08e0939fa840d57b\\MSVCR90.dll",
+    "C:\\WINDOWS\\System32\\wshbth.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll"
+  ]
+}
